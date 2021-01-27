@@ -35,4 +35,7 @@ sudo mkdir -p /usr/local/cuda-10.0/nccl/lib
 sudo ln -s /usr/lib/x86_64-linux-gnu/libnccl.so.2 /usr/local/cuda/nccl/lib/
 sudo ln -s /usr/lib/x86_64-linux-gnu/libcudnn.so.7 /usr/local/cuda-10.0/lib64/
 
+# install nvcc
+sudo apt install nvidia-cuda-toolkit
+
 echo 'If everything worked fine, reboot now.'
